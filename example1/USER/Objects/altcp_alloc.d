@@ -1,0 +1,15 @@
+.\objects\altcp_alloc.o: ..\LWIP\core\altcp_alloc.c
+.\objects\altcp_alloc.o: ..\LWIP\include\lwip/opt.h
+.\objects\altcp_alloc.o: ..\LWIP\lwipopts.h
+.\objects\altcp_alloc.o: ..\HARDWARE\FreeRTOSConfig.h
+.\objects\altcp_alloc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\altcp_alloc.o: ..\LWIP\include\lwip/debug.h
+.\objects\altcp_alloc.o: ..\LWIP\include\lwip/arch.h
+.\objects\altcp_alloc.o: ..\LWIP\arch/cc.h
+.\objects\altcp_alloc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\altcp_alloc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\altcp_alloc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\altcp_alloc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\altcp_alloc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\altcp_alloc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\altcp_alloc.o: ..\LWIP\include\lwip/opt.h

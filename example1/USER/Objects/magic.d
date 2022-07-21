@@ -1,0 +1,16 @@
+.\objects\magic.o: ..\LWIP\netif\ppp\magic.c
+.\objects\magic.o: ..\LWIP\include\netif/ppp/ppp_opts.h
+.\objects\magic.o: ..\LWIP\include\lwip/opt.h
+.\objects\magic.o: ..\LWIP\lwipopts.h
+.\objects\magic.o: ..\HARDWARE\FreeRTOSConfig.h
+.\objects\magic.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\magic.o: ..\LWIP\include\lwip/debug.h
+.\objects\magic.o: ..\LWIP\include\lwip/arch.h
+.\objects\magic.o: ..\LWIP\arch/cc.h
+.\objects\magic.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\magic.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\magic.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\magic.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\magic.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\magic.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\magic.o: ..\LWIP\include\lwip/opt.h

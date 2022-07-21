@@ -1,0 +1,16 @@
+.\objects\des.o: ..\LWIP\netif\ppp\polarssl\des.c
+.\objects\des.o: ..\LWIP\include\netif/ppp/ppp_opts.h
+.\objects\des.o: ..\LWIP\include\lwip/opt.h
+.\objects\des.o: ..\LWIP\lwipopts.h
+.\objects\des.o: ..\HARDWARE\FreeRTOSConfig.h
+.\objects\des.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\des.o: ..\LWIP\include\lwip/debug.h
+.\objects\des.o: ..\LWIP\include\lwip/arch.h
+.\objects\des.o: ..\LWIP\arch/cc.h
+.\objects\des.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\des.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\des.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\des.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\des.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\des.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\des.o: ..\LWIP\include\lwip/opt.h

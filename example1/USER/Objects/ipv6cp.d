@@ -1,0 +1,16 @@
+.\objects\ipv6cp.o: ..\LWIP\netif\ppp\ipv6cp.c
+.\objects\ipv6cp.o: ..\LWIP\include\netif/ppp/ppp_opts.h
+.\objects\ipv6cp.o: ..\LWIP\include\lwip/opt.h
+.\objects\ipv6cp.o: ..\LWIP\lwipopts.h
+.\objects\ipv6cp.o: ..\HARDWARE\FreeRTOSConfig.h
+.\objects\ipv6cp.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ipv6cp.o: ..\LWIP\include\lwip/debug.h
+.\objects\ipv6cp.o: ..\LWIP\include\lwip/arch.h
+.\objects\ipv6cp.o: ..\LWIP\arch/cc.h
+.\objects\ipv6cp.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\ipv6cp.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\ipv6cp.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\ipv6cp.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\ipv6cp.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\ipv6cp.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\ipv6cp.o: ..\LWIP\include\lwip/opt.h

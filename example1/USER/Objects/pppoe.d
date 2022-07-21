@@ -1,0 +1,16 @@
+.\objects\pppoe.o: ..\LWIP\netif\ppp\pppoe.c
+.\objects\pppoe.o: ..\LWIP\include\netif/ppp/ppp_opts.h
+.\objects\pppoe.o: ..\LWIP\include\lwip/opt.h
+.\objects\pppoe.o: ..\LWIP\lwipopts.h
+.\objects\pppoe.o: ..\HARDWARE\FreeRTOSConfig.h
+.\objects\pppoe.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\pppoe.o: ..\LWIP\include\lwip/debug.h
+.\objects\pppoe.o: ..\LWIP\include\lwip/arch.h
+.\objects\pppoe.o: ..\LWIP\arch/cc.h
+.\objects\pppoe.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\pppoe.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\pppoe.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\pppoe.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\pppoe.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\pppoe.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\pppoe.o: ..\LWIP\include\lwip/opt.h

@@ -1,0 +1,16 @@
+.\objects\chap-new.o: ..\LWIP\netif\ppp\chap-new.c
+.\objects\chap-new.o: ..\LWIP\include\netif/ppp/ppp_opts.h
+.\objects\chap-new.o: ..\LWIP\include\lwip/opt.h
+.\objects\chap-new.o: ..\LWIP\lwipopts.h
+.\objects\chap-new.o: ..\HARDWARE\FreeRTOSConfig.h
+.\objects\chap-new.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\chap-new.o: ..\LWIP\include\lwip/debug.h
+.\objects\chap-new.o: ..\LWIP\include\lwip/arch.h
+.\objects\chap-new.o: ..\LWIP\arch/cc.h
+.\objects\chap-new.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\chap-new.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\chap-new.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\chap-new.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\chap-new.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\chap-new.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\chap-new.o: ..\LWIP\include\lwip/opt.h

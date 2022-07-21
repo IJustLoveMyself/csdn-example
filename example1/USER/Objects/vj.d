@@ -1,0 +1,16 @@
+.\objects\vj.o: ..\LWIP\netif\ppp\vj.c
+.\objects\vj.o: ..\LWIP\include\netif/ppp/ppp_opts.h
+.\objects\vj.o: ..\LWIP\include\lwip/opt.h
+.\objects\vj.o: ..\LWIP\lwipopts.h
+.\objects\vj.o: ..\HARDWARE\FreeRTOSConfig.h
+.\objects\vj.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\vj.o: ..\LWIP\include\lwip/debug.h
+.\objects\vj.o: ..\LWIP\include\lwip/arch.h
+.\objects\vj.o: ..\LWIP\arch/cc.h
+.\objects\vj.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\vj.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\vj.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\vj.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\vj.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\vj.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\vj.o: ..\LWIP\include\lwip/opt.h

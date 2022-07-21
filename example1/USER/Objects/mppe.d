@@ -1,0 +1,16 @@
+.\objects\mppe.o: ..\LWIP\netif\ppp\mppe.c
+.\objects\mppe.o: ..\LWIP\include\netif/ppp/ppp_opts.h
+.\objects\mppe.o: ..\LWIP\include\lwip/opt.h
+.\objects\mppe.o: ..\LWIP\lwipopts.h
+.\objects\mppe.o: ..\HARDWARE\FreeRTOSConfig.h
+.\objects\mppe.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mppe.o: ..\LWIP\include\lwip/debug.h
+.\objects\mppe.o: ..\LWIP\include\lwip/arch.h
+.\objects\mppe.o: ..\LWIP\arch/cc.h
+.\objects\mppe.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\mppe.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\mppe.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\mppe.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\mppe.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\mppe.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\mppe.o: ..\LWIP\include\lwip/opt.h

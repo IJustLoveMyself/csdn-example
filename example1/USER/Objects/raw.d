@@ -1,0 +1,15 @@
+.\objects\raw.o: ..\LWIP\core\raw.c
+.\objects\raw.o: ..\LWIP\include\lwip/opt.h
+.\objects\raw.o: ..\LWIP\lwipopts.h
+.\objects\raw.o: ..\HARDWARE\FreeRTOSConfig.h
+.\objects\raw.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\raw.o: ..\LWIP\include\lwip/debug.h
+.\objects\raw.o: ..\LWIP\include\lwip/arch.h
+.\objects\raw.o: ..\LWIP\arch/cc.h
+.\objects\raw.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\raw.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\raw.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\raw.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\raw.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\raw.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\raw.o: ..\LWIP\include\lwip/opt.h

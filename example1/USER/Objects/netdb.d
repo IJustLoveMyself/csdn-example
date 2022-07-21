@@ -1,0 +1,16 @@
+.\objects\netdb.o: ..\LWIP\api\netdb.c
+.\objects\netdb.o: ..\LWIP\include\lwip/netdb.h
+.\objects\netdb.o: ..\LWIP\include\lwip/opt.h
+.\objects\netdb.o: ..\LWIP\lwipopts.h
+.\objects\netdb.o: ..\HARDWARE\FreeRTOSConfig.h
+.\objects\netdb.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\netdb.o: ..\LWIP\include\lwip/debug.h
+.\objects\netdb.o: ..\LWIP\include\lwip/arch.h
+.\objects\netdb.o: ..\LWIP\arch/cc.h
+.\objects\netdb.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\netdb.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\netdb.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\netdb.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\netdb.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\netdb.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\netdb.o: ..\LWIP\include\lwip/opt.h

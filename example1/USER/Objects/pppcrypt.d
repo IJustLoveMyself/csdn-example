@@ -1,0 +1,16 @@
+.\objects\pppcrypt.o: ..\LWIP\netif\ppp\pppcrypt.c
+.\objects\pppcrypt.o: ..\LWIP\include\netif/ppp/ppp_opts.h
+.\objects\pppcrypt.o: ..\LWIP\include\lwip/opt.h
+.\objects\pppcrypt.o: ..\LWIP\lwipopts.h
+.\objects\pppcrypt.o: ..\HARDWARE\FreeRTOSConfig.h
+.\objects\pppcrypt.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\pppcrypt.o: ..\LWIP\include\lwip/debug.h
+.\objects\pppcrypt.o: ..\LWIP\include\lwip/arch.h
+.\objects\pppcrypt.o: ..\LWIP\arch/cc.h
+.\objects\pppcrypt.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\pppcrypt.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\pppcrypt.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\pppcrypt.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\pppcrypt.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\pppcrypt.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\pppcrypt.o: ..\LWIP\include\lwip/opt.h
