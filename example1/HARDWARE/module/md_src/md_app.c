@@ -172,7 +172,7 @@ void tcp_client_task(void *arg)
 					sendbuf[1] = (count>>8)&0xFF;
 					sendbuf[2] = (count>>16)&0xFF;
 					sendbuf[3] = (count>>24)&0xFF;
-            send(sockfd, sendbuf, 1460, 0);
+            send(sockfd, sendbuf, 1460, 0);  
 					  vTaskDelay(10);
 					  
         }
