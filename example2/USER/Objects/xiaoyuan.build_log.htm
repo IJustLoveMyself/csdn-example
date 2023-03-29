@@ -1,0 +1,110 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 123 Administrator, 123, LIC=MGXG8-3WAH5-VJ86J-U1F1K-F38T3-Q8MMD
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.23
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DCM.DLL V1.15.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.23.0
+Dialog DLL:      TCM.DLL V1.27.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Administrator\Desktop\新建文件夹\新建文件夹\ethercat\USER\ziyan_am_cb.uvprojx
+Project File Date:  03/29/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'ziyan_am_cb'
+compiling myapp.c...
+..\HARDWARE\module\md_inc\md_ethercat.h(24): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\ThirdPart\Ethercat\inc\sdoserv.h(647): warning:  #1295-D: Deprecated declaration SODS_ClearPendingResponse - give arg types
+  
+ROTO    void  SODS_ClearPendingResponse();
+..\ThirdPart\Ethercat\src\myapp.c(305): warning:  #167-D: argument of type "volatile _rpdo1600_t *" is incompatible with parameter of type "void *restrict"
+              memcpy(&rpdodata,pTmpData,sizeof(_rpdo1600_t));
+..\ThirdPart\Ethercat\src\myapp.c(355): warning:  #951-D: return type of function "main" must be "int"
+  void main(void)
+..\ThirdPart\Ethercat\src\myapp.c: 4 warnings, 0 errors
+compiling objdef.c...
+..\HARDWARE\module\md_inc\md_ethercat.h(24): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\ThirdPart\Ethercat\inc\sdoserv.h(647): warning:  #1295-D: Deprecated declaration SODS_ClearPendingResponse - give arg types
+  
+ROTO    void  SODS_ClearPendingResponse();
+..\ThirdPart\Ethercat\inc\sdoserv.h(647): warning:  #1295-D: Deprecated declaration SODS_ClearPendingResponse - give arg types
+  
+ROTO    void  SODS_ClearPendingResponse();
+..\ThirdPart\Ethercat\src\objdef.c: 3 warnings, 0 errors
+compiling ecatappl.c...
+..\HARDWARE\module\md_inc\md_ethercat.h(24): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\ThirdPart\Ethercat\inc\sdoserv.h(647): warning:  #1295-D: Deprecated declaration SODS_ClearPendingResponse - give arg types
+  
+ROTO    void  SODS_ClearPendingResponse();
+..\ThirdPart\Ethercat\inc\sdoserv.h(647): warning:  #1295-D: Deprecated declaration SODS_ClearPendingResponse - give arg types
+  
+ROTO    void  SODS_ClearPendingResponse();
+..\ThirdPart\Ethercat\src\ecatappl.c(156): warning:  #1215-D: #warning directive: "Define the timer ticks per ms"
+  #warning "Define the timer ticks per ms"
+..\ThirdPart\Ethercat\src\ecatappl.c: 4 warnings, 0 errors
+compiling sdoserv.c...
+..\HARDWARE\module\md_inc\md_ethercat.h(24): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\ThirdPart\Ethercat\inc\sdoserv.h(647): warning:  #1295-D: Deprecated declaration SODS_ClearPendingResponse - give arg types
+  
+ROTO    void  SODS_ClearPendingResponse();
+..\ThirdPart\Ethercat\src\sdoserv.c: 2 warnings, 0 errors
+compiling ecatslv.c...
+..\HARDWARE\module\md_inc\md_ethercat.h(24): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\ThirdPart\Ethercat\inc\sdoserv.h(647): warning:  #1295-D: Deprecated declaration SODS_ClearPendingResponse - give arg types
+  
+ROTO    void  SODS_ClearPendingResponse();
+..\ThirdPart\Ethercat\src\ecatslv.c: 2 warnings, 0 errors
+compiling mailbox.c...
+..\HARDWARE\module\md_inc\md_ethercat.h(24): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\ThirdPart\Ethercat\inc\sdoserv.h(647): warning:  #1295-D: Deprecated declaration SODS_ClearPendingResponse - give arg types
+  
+ROTO    void  SODS_ClearPendingResponse();
+..\ThirdPart\Ethercat\src\mailbox.c: 2 warnings, 0 errors
+compiling coeappl.c...
+..\HARDWARE\module\md_inc\md_ethercat.h(24): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\ThirdPart\Ethercat\inc\sdoserv.h(647): warning:  #1295-D: Deprecated declaration SODS_ClearPendingResponse - give arg types
+  
+ROTO    void  SODS_ClearPendingResponse();
+..\ThirdPart\Ethercat\src\coeappl.c: 2 warnings, 0 errors
+compiling ecatport.c...
+..\HARDWARE\module\md_inc\md_ethercat.h(24): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\bsp\bsp_inc\bsp_spi.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\ThirdPart\Ethercat\src\ecatport.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=16994 RO-data=2074 RW-data=1388 ZI-data=2444  
+FromELF: creating hex file...
+".\Objects\xiaoyuan.axf" - 0 Error(s), 21 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_ziyan_am_cb
+  D:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>

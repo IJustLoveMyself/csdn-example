@@ -1,0 +1,8 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "amconfig.h": "c",
+        "bsp_flash.h": "c",
+        "bsp_gpio.h": "c"
+    }
+}

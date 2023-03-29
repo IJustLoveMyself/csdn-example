@@ -1,0 +1,163 @@
+Dependencies for Project 'ziyan_am_pb', Target 'ziyan_am_cb': (DO NOT MODIFY !)
+F (..\CORE\startup_gd32f450_470.s)(0x63525AC5)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 523" --pd "GD32F470 SETA 1"--list .\listings\startup_gd32f450_470.lst --xref -o .\objects\startup_gd32f450_470.o --depend .\objects\startup_gd32f450_470.d)
+F (.\gd32f4xx_it.c)(0x617FA22E)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\gd32f4xx_it.o --omf_browse .\objects\gd32f4xx_it.crf --depend .\objects\gd32f4xx_it.d)
+I (gd32f4xx_it.h)(0x5F5994B7)
+I (gd32f4xx.h)(0x617F803C)
+F (.\main.c)(0x617FA007)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\HARDWARE\bsp\bsp_inc\bsp_uart.h)(0x617F902C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (..\HARDWARE\bsp\bsp_inc\bsp_systick.h)(0x617A0FAE)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (.\system_gd32f4xx.c)(0x617BCA7D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\system_gd32f4xx.o --omf_browse .\objects\system_gd32f4xx.crf --depend .\objects\system_gd32f4xx.d)
+I (gd32f4xx.h)(0x617F803C)
+F (..\FWLIB\Source\gd32f4xx_adc.c)(0x63525AD9)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\gd32f4xx_adc.o --omf_browse .\objects\gd32f4xx_adc.crf --depend .\objects\gd32f4xx_adc.d)
+I (..\FWLIB\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\FWLIB\Source\gd32f4xx_can.c)(0x63525AC4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\gd32f4xx_can.o --omf_browse .\objects\gd32f4xx_can.crf --depend .\objects\gd32f4xx_can.d)
+I (..\FWLIB\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\FWLIB\Source\gd32f4xx_crc.c)(0x63525AC4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\gd32f4xx_crc.o --omf_browse .\objects\gd32f4xx_crc.crf --depend .\objects\gd32f4xx_crc.d)
+I (..\FWLIB\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\FWLIB\Source\gd32f4xx_ctc.c)(0x63525AC4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\gd32f4xx_ctc.o --omf_browse .\objects\gd32f4xx_ctc.crf --depend .\objects\gd32f4xx_ctc.d)
+I (..\FWLIB\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\FWLIB\Source\gd32f4xx_dac.c)(0x63525AC4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\gd32f4xx_dac.o --omf_browse .\objects\gd32f4xx_dac.crf --depend .\objects\gd32f4xx_dac.d)
+I (..\FWLIB\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\FWLIB\Source\gd32f4xx_dbg.c)(0x63525AC4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\gd32f4xx_dbg.o --omf_browse .\objects\gd32f4xx_dbg.crf --depend .\objects\gd32f4xx_dbg.d)
+I (..\FWLIB\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\FWLIB\Source\gd32f4xx_dci.c)(0x63525AC4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\gd32f4xx_dci.o --omf_browse .\objects\gd32f4xx_dci.crf --depend .\objects\gd32f4xx_dci.d)
+I (..\FWLIB\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\FWLIB\Source\gd32f4xx_dma.c)(0x63525AC4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\gd32f4xx_dma.o --omf_browse .\objects\gd32f4xx_dma.crf --depend .\objects\gd32f4xx_dma.d)
+I (..\FWLIB\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\FWLIB\Source\gd32f4xx_enet.c)(0x63525AC4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\gd32f4xx_enet.o --omf_browse .\objects\gd32f4xx_enet.crf --depend .\objects\gd32f4xx_enet.d)
+I (..\FWLIB\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\FWLIB\Source\gd32f4xx_exmc.c)(0x63525AC4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\gd32f4xx_exmc.o --omf_browse .\objects\gd32f4xx_exmc.crf --depend .\objects\gd32f4xx_exmc.d)
+I (..\FWLIB\Include\gd32f4xx_exmc.h)(0x63525AC4)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\FWLIB\Source\gd32f4xx_exti.c)(0x63525AC4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\gd32f4xx_exti.o --omf_browse .\objects\gd32f4xx_exti.crf --depend .\objects\gd32f4xx_exti.d)
+I (..\FWLIB\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\FWLIB\Source\gd32f4xx_fmc.c)(0x63525AD9)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\gd32f4xx_fmc.o --omf_browse .\objects\gd32f4xx_fmc.crf --depend .\objects\gd32f4xx_fmc.d)
+I (..\FWLIB\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\FWLIB\Source\gd32f4xx_fwdgt.c)(0x63525AC4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\gd32f4xx_fwdgt.o --omf_browse .\objects\gd32f4xx_fwdgt.crf --depend .\objects\gd32f4xx_fwdgt.d)
+I (..\FWLIB\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\FWLIB\Source\gd32f4xx_gpio.c)(0x63525AC4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\gd32f4xx_gpio.o --omf_browse .\objects\gd32f4xx_gpio.crf --depend .\objects\gd32f4xx_gpio.d)
+I (..\FWLIB\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\FWLIB\Source\gd32f4xx_i2c.c)(0x63525AC4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\gd32f4xx_i2c.o --omf_browse .\objects\gd32f4xx_i2c.crf --depend .\objects\gd32f4xx_i2c.d)
+I (..\FWLIB\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\FWLIB\Source\gd32f4xx_ipa.c)(0x63525AC4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\gd32f4xx_ipa.o --omf_browse .\objects\gd32f4xx_ipa.crf --depend .\objects\gd32f4xx_ipa.d)
+I (..\FWLIB\Include\gd32f4xx_ipa.h)(0x63525AC4)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\FWLIB\Source\gd32f4xx_iref.c)(0x63525AC4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\gd32f4xx_iref.o --omf_browse .\objects\gd32f4xx_iref.crf --depend .\objects\gd32f4xx_iref.d)
+I (..\FWLIB\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\FWLIB\Source\gd32f4xx_misc.c)(0x63525AC4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\gd32f4xx_misc.o --omf_browse .\objects\gd32f4xx_misc.crf --depend .\objects\gd32f4xx_misc.d)
+I (..\FWLIB\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\FWLIB\Source\gd32f4xx_pmu.c)(0x63525AC4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\gd32f4xx_pmu.o --omf_browse .\objects\gd32f4xx_pmu.crf --depend .\objects\gd32f4xx_pmu.d)
+I (..\FWLIB\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\FWLIB\Source\gd32f4xx_rcu.c)(0x63525AC4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\gd32f4xx_rcu.o --omf_browse .\objects\gd32f4xx_rcu.crf --depend .\objects\gd32f4xx_rcu.d)
+I (..\FWLIB\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\FWLIB\Source\gd32f4xx_rtc.c)(0x63525AC4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\gd32f4xx_rtc.o --omf_browse .\objects\gd32f4xx_rtc.crf --depend .\objects\gd32f4xx_rtc.d)
+I (..\FWLIB\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\FWLIB\Source\gd32f4xx_sdio.c)(0x63525AC4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\gd32f4xx_sdio.o --omf_browse .\objects\gd32f4xx_sdio.crf --depend .\objects\gd32f4xx_sdio.d)
+I (..\FWLIB\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\FWLIB\Source\gd32f4xx_spi.c)(0x63525AC4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\gd32f4xx_spi.o --omf_browse .\objects\gd32f4xx_spi.crf --depend .\objects\gd32f4xx_spi.d)
+I (..\FWLIB\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\FWLIB\Source\gd32f4xx_syscfg.c)(0x63525AC4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\gd32f4xx_syscfg.o --omf_browse .\objects\gd32f4xx_syscfg.crf --depend .\objects\gd32f4xx_syscfg.d)
+I (..\FWLIB\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\FWLIB\Source\gd32f4xx_timer.c)(0x63525AC4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\gd32f4xx_timer.o --omf_browse .\objects\gd32f4xx_timer.crf --depend .\objects\gd32f4xx_timer.d)
+I (..\FWLIB\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\FWLIB\Source\gd32f4xx_tli.c)(0x63525AC4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\gd32f4xx_tli.o --omf_browse .\objects\gd32f4xx_tli.crf --depend .\objects\gd32f4xx_tli.d)
+I (..\FWLIB\Include\gd32f4xx_tli.h)(0x63525AC4)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\FWLIB\Source\gd32f4xx_trng.c)(0x63525AC4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\gd32f4xx_trng.o --omf_browse .\objects\gd32f4xx_trng.crf --depend .\objects\gd32f4xx_trng.d)
+I (..\FWLIB\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\FWLIB\Source\gd32f4xx_usart.c)(0x63525AC4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\gd32f4xx_usart.o --omf_browse .\objects\gd32f4xx_usart.crf --depend .\objects\gd32f4xx_usart.d)
+I (..\FWLIB\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\FWLIB\Source\gd32f4xx_wwdgt.c)(0x63525AC4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\gd32f4xx_wwdgt.o --omf_browse .\objects\gd32f4xx_wwdgt.crf --depend .\objects\gd32f4xx_wwdgt.d)
+I (..\FWLIB\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\HARDWARE\bsp\bsp_src\bsp_can.c)(0x617FAB72)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\bsp_can.o --omf_browse .\objects\bsp_can.crf --depend .\objects\bsp_can.d)
+I (..\HARDWARE\XiaoyuanConfig.h)(0x617FAB72)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\HARDWARE\bsp\bsp_src\bsp_iwdg.c)(0x617A0FAE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\bsp_iwdg.o --omf_browse .\objects\bsp_iwdg.crf --depend .\objects\bsp_iwdg.d)
+I (..\HARDWARE\bsp\bsp_inc\bsp_iwdg.h)(0x617A0FAE)
+I (..\HARDWARE\XiaoyuanConfig.h)(0x617FAB72)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\HARDWARE\bsp\bsp_src\bsp_sys.c)(0x617FAA8C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\bsp_sys.o --omf_browse .\objects\bsp_sys.crf --depend .\objects\bsp_sys.d)
+I (..\HARDWARE\bsp\bsp_inc\bsp_sys.h)(0x617A0FAE)
+I (..\HARDWARE\XiaoyuanConfig.h)(0x617FAB72)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\HARDWARE\bsp\bsp_src\bsp_systick.c)(0x617A0FAE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\bsp_systick.o --omf_browse .\objects\bsp_systick.crf --depend .\objects\bsp_systick.d)
+I (..\HARDWARE\bsp\bsp_inc\bsp_systick.h)(0x617A0FAE)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\HARDWARE\bsp\bsp_src\bsp_time.c)(0x617A0FAE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\bsp_time.o --omf_browse .\objects\bsp_time.crf --depend .\objects\bsp_time.d)
+I (..\HARDWARE\bsp\bsp_inc\bsp_time.h)(0x617F902D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\HARDWARE\bsp\bsp_src\bsp_uart.c)(0x617A0FAE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\bsp_uart.o --omf_browse .\objects\bsp_uart.crf --depend .\objects\bsp_uart.d)
+I (..\HARDWARE\XiaoyuanConfig.h)(0x617FAB72)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\HARDWARE\bsp\bsp_src\bsp_gpio.c)(0x617A0FAE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\bsp_gpio.o --omf_browse .\objects\bsp_gpio.crf --depend .\objects\bsp_gpio.d)
+I (..\HARDWARE\bsp\bsp_inc\bsp_gpio.h)(0x617F902D)
+I (..\FWLIB\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\HARDWARE\bsp\bsp_src\bsp_flash.c)(0x617A3C4A)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\bsp_flash.o --omf_browse .\objects\bsp_flash.crf --depend .\objects\bsp_flash.d)
+I (..\HARDWARE\bsp\bsp_inc\bsp_flash.h)(0x617A3C00)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\HARDWARE\module\md_src\md_battary.c)(0x617F9269)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\md_battary.o --omf_browse .\objects\md_battary.crf --depend .\objects\md_battary.d)
+I (..\HARDWARE\module\md_inc\md_battary.h)(0x617F9269)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\HARDWARE\module\md_src\md_canopen.c)(0x617B5C22)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\md_canopen.o --omf_browse .\objects\md_canopen.crf --depend .\objects\md_canopen.d)
+I (..\HARDWARE\module\md_inc\md_canopen.h)(0x617B5C22)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\HARDWARE\module\md_src\md_motor.c)(0x617FA957)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\md_motor.o --omf_browse .\objects\md_motor.crf --depend .\objects\md_motor.d)
+I (..\HARDWARE\module\md_inc\md_motor.h)(0x617F902D)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\HARDWARE\module\md_src\md_nuc.c)(0x617B9208)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\md_nuc.o --omf_browse .\objects\md_nuc.crf --depend .\objects\md_nuc.d)
+I (..\HARDWARE\module\md_inc\md_motor.h)(0x617F902D)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\HARDWARE\module\md_src\md_remote.c)(0x617B9208)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\md_remote.o --omf_browse .\objects\md_remote.crf --depend .\objects\md_remote.d)
+I (..\HARDWARE\module\md_inc\md_remote.h)(0x617F902C)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\HARDWARE\module\md_src\md_sensor.c)(0x617B9208)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\md_sensor.o --omf_browse .\objects\md_sensor.crf --depend .\objects\md_sensor.d)
+I (..\HARDWARE\module\md_inc\md_sensor.h)(0x617F902C)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\HARDWARE\module\md_src\md_task.c)(0x617F9D6C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\md_task.o --omf_browse .\objects\md_task.crf --depend .\objects\md_task.d)
+I (..\HARDWARE\module\md_inc\md_task.h)(0x617F9050)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\HARDWARE\module\md_src\md_powerboard.c)(0x617F90D8)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\md_powerboard.o --omf_browse .\objects\md_powerboard.crf --depend .\objects\md_powerboard.d)
+I (..\HARDWARE\module\md_inc\md_powerboard.h)(0x617B9208)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\HARDWARE\module\md_src\md_app.c)(0x617FAA8C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\md_app.o --omf_browse .\objects\md_app.crf --depend .\objects\md_app.d)
+I (..\HARDWARE\XiaoyuanConfig.h)(0x617FAB72)
+I (..\USER\gd32f4xx.h)(0x617F803C)
+F (..\HARDWARE\module\md_src\md_log.c)(0x617F9FC4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\FWLIB\Include -I ..\USER -I ..\CORE -I ..\HARDWARE -I ..\HARDWARE\bsp\bsp_inc -I ..\HARDWARE\module\md_inc-I.\RTE\_ziyan_am_cb-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F470 -DGD32F470-o .\objects\md_log.o --omf_browse .\objects\md_log.crf --depend .\objects\md_log.d)
+I (..\HARDWARE\bsp\bsp_inc\bsp_uart.h)(0x617F902C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\HARDWARE\module\md_inc\md_log.h)(0x617F902C)
+I (..\USER\gd32f4xx.h)(0x617F803C)
