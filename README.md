@@ -4,3 +4,5 @@
 example1------------------------GD32F407+FreeRTOS+Lwip移植工程
 
 example2------------------------GD32F450+Ethercat从站移植工程
+
+example3-------------------------Windows下QT编写的SOEM主站可执行程序与源码测试工程
